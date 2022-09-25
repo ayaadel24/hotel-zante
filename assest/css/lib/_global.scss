@@ -1,0 +1,27 @@
+@import "global";
+ul
+{
+  list-style: none;
+  padding: 0px;
+
+}
+a
+{
+  text-decoration:none;
+  &hover
+  {
+    text-decoration:none;
+  }
+}
+*
+{
+ margin: 0px;
+ box-sizing: border-box;
+}
+:root
+{
+  --primary-color:#ff8c00;
+  --secondry-color:#a9a9a9;
+  --dark-color:#4d4b4b;
+  --semi-light: #f7f7f7;
+}
